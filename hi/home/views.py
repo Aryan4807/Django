@@ -9,8 +9,9 @@ def index(request):
     # return HttpResponse("welcome to my routing bro")
 
 def contact(request):
-    return HttpResponse("my contact are huge")
+    return render(request,"contact.html")
+    # return HttpResponse("my contact are huge")
 def about(request):
-    return HttpResponse("About us ")
+   return render(request,"about.html")
 def services(request):
-    return HttpResponse("services Contact us ")
+   return render(request,"services.html")
