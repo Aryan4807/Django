@@ -3,7 +3,7 @@ from django.http import HttpResponse
 # Create your views here.
 def index(request):
     context={
-        "variablq":"dsasda"
+        "variable":"dsasda"
     }
     return render(request,"index.html",context)
     # return HttpResponse("welcome to my routing bro")
