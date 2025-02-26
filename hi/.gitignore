@@ -1,2 +1,4 @@
 _pycache,
-db.sqlite3
+db.sqlite3,
+._pycache_
+.cpython-313.pyc
